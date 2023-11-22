@@ -1,0 +1,77 @@
+{
+	"pages": {
+		"main": {
+			"AboutMeSectionDescription": "I empower companies through problem-solving and exceptional user experiences.",
+			"MoreAboutMe": "More about me",
+			"StartAProject": "Start a project",
+			"Ruble Brothers": "Ruble Brothers",
+			"Yandex Match": "Yandex Match",
+			"ContactForm": "Contact form",
+			"faqsTitle": "FAQ’s",
+			"faqs": [
+				{
+					"title": "Do I get fully working website at the end?",
+					"description": "As a UX/UI designer, I specialize in creating the visual design and user interface. While I focus on the design aspect, I collaborate with a skilled team of web developers who are responsible for bringing the design to life through development and coding."
+				},
+				{
+					"title": "How do you handle design revisions?",
+					"description": "I value open communication and collaboration with clients. I take the time to understand your feedback and incorporate it into the design. I provide explanations of design choices, present alternative solutions when needed, and work closely with you to reach a design solution that meets your expectations."
+				},
+				{
+					"title": "Do you provide design documentation?",
+					"description": "I provide design documentation and style guides to ensure ease of development and to facilitate understanding of the design."
+				},
+				{
+					"title": "How do you implement our brand identity?",
+					"description": "I ensure your brand identity and message are effectively communicated through thoughtful design choices and brand-aligned visual elements."
+				},
+				{
+					"title": "Do you offer post-design support?",
+					"description": "I offer post-design support during the implementation phase to address any design-related questions or concerns."
+				},
+				{
+					"title": "How do you take payment?",
+					"description": "I take 50% upfront and the remaining 50% after the design is finalized. For clients in Russia, I accept any payment method. However, please note that I can only accept crypto-transactions from clients outside Russia as SWIFT transactions are blocked."
+				}
+			]
+		},
+		"privacy-policy": {
+			"Privacy Policy": "Privacy Policy"
+		},
+		"project-peek": {
+			"description": "Revolutionizing design and function, the project showcases a cutting-edge smart speaker concept. During this project I designed an adaptive website, 3D models and animations that transport users into an immersive visual realm."
+		},
+		"project-ruble-brothers": {
+			"description": "Presenting a money exchange landing page design that is intuitive, user-friendly, and modern. Our design will make it easy for customers to quickly and securely exchange money."
+		},
+		"project-yandex": {
+			"description": "Yandex Match is a new dating service that can help you find a person with similar hobbies thanks to the new feature — «Maximum Match»!"
+		}
+	},
+	"DevelopedByDavidKimmich": "Developed by David Kimmich",
+	"menu": {
+		"Work": "Work",
+		"About me": "About me",
+		"F.A.Q": "F.A.Q",
+		"Contact me": "Contact me"
+	},
+	"ContactModal": {
+		"By clicking “Send”, you accept our": "By clicking “Send”, you accept our",
+		"privacy policy": "privacy policy",
+		"Contact Form": "Contact Form",
+		"Name": "Name",
+		"Email": "Email",
+		"Type your message here...": "Type your message here..."
+	},
+	"Send": "Send",
+	"Visit the website": "Visit the website",
+	"Navbar": {
+		"Menu": "Menu",
+		"Close": "Close"
+	},
+	"projectFooter": {
+		"Next Project": "Next Project"
+	},
+	"See this work": "See this work",
+	"Play video": "Play video"
+}

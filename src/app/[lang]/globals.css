@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-primary: hsla(0, 0%, 100%, 1);
+	--color-secondary: hsla(0, 0%, 50%, 1);
+	--color-tertiary: hsla(0, 0%, 25%, 1);
+	--background-color-primary: hsla(245, 92%, 65%, 1);
+	--background-color-secondary: hsla(0, 0%, 7%, 1);
+	--background-color-tertiary: hsla(0, 0%, 7%, 0.64);
+	--foreground-rgb: 128, 128, 128;
+	--background-rgb: 0, 0, 0;
+}
+
+@layer base {
+	/* * {
+		border: 1px solid red !important;
+		outline: 1px solid red !important;
+	} */
+
+	* {
+		-webkit-user-select: none; /* Safari */
+		-ms-user-select: none; /* IE 10 and IE 11 */
+		user-select: none;
+	}
+
+	html {
+		scroll-behavior: smooth !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		color: var(--color-primary);
+	}
+
+	body {
+		color: rgb(var(--foreground-rgb));
+		background: rgb(var(--background-rgb));
+	}
+
+	::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: rgb(var(--background-rgb));
+	}
+
+	::-webkit-scrollbar-thumb {
+		height: 166px;
+		background: var(--color-tertiary);
+		@apply rounded-full;
+	}
+}
+@layer components {
+	.bg-primary {
+		background-color: var(--background-color-primary);
+	}
+
+	.bg-secondary {
+		background-color: var(--background-color-secondary);
+	}
+
+	.bg-tertiary {
+		background-color: var(--background-color-tertiary);
+	}
+
+	.text-primary {
+		color: var(--color-primary);
+	}
+
+	.text-secondary {
+		color: var(--color-secondary);
+	}
+
+	.text-tertiary {
+		color: var(--color-tertiary);
+	}
+
+	.fill-primary {
+		fill: var(--color-primary);
+	}
+
+	.fill-secondary {
+		fill: var(--color-secondary);
+	}
+
+	.fill-tertiary {
+		fill: var(--color-tertiary);
+	}
+
+	.border-primary {
+		border-color: var(--color-primary);
+	}
+
+	.border-secondary {
+		border-color: var(--color-secondary);
+	}
+
+	.border-tertiary {
+		border-color: var(--color-tertiary);
+	}
+
+	.stroke-primary {
+		stroke: var(--color-primary);
+	}
+
+	.stroke-secondary {
+		stroke: var(--color-secondary);
+	}
+
+	.stroke-tertiary {
+		stroke: var(--color-tertiary);
+	}
+
+	/* 
+	loading circle
+	shout out: https://cssloading-circles.github.io/
+	*/
+	.loading-circle {
+		width: 48px;
+		height: 48px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #fff;
+		border-radius: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+		position: relative;
+		animation: pulse 1s linear infinite;
+	}
+
+	.loading-circle:after {
+		content: "";
+		position: absolute;
+		width: 48px;
+		height: 48px;
+		border-width: 5px;
+		border-style: solid;
+		border-color: #fff;
+		border-radius: 50%;
+		display: inline-block;
+		box-sizing: border-box;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		animation: scaleUp 1s linear infinite;
+	}
+
+	@keyframes scaleUp {
+		0% {
+			transform: translate(-50%, -50%) scale(0);
+		}
+
+		60%,
+		100% {
+			transform: translate(-50%, -50%) scale(1);
+		}
+	}
+
+	@keyframes pulse {
+		0%,
+		60%,
+		100% {
+			transform: scale(1);
+		}
+
+		80% {
+			transform: scale(1.2);
+		}
+	}
+}
